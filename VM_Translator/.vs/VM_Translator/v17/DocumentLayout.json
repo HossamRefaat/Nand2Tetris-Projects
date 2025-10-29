@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|c:\\users\\hossa\\onedrive\\desktop\\nand2tetris projects\\vm_translator\\vm_translator\\implementation\\codewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|solutionrelative:vm_translator\\implementation\\codewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|c:\\users\\hossa\\onedrive\\desktop\\nand2tetris projects\\vm_translator\\vm_translator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|solutionrelative:vm_translator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|c:\\users\\hossa\\onedrive\\desktop\\nand2tetris projects\\vm_translator\\vm_translator\\implementation\\commandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|solutionrelative:vm_translator\\implementation\\commandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|c:\\users\\hossa\\onedrive\\desktop\\nand2tetris projects\\vm_translator\\vm_translator\\implementation\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F83680-79C1-4364-A8E3-EF4550EF080F}|VM_Translator\\VM_Translator.csproj|solutionrelative:vm_translator\\implementation\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandType.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\CommandType.cs",
+              "RelativeDocumentMoniker": "VM_Translator\\Implementation\\CommandType.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\CommandType.cs",
+              "RelativeToolTip": "VM_Translator\\Implementation\\CommandType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:04:31.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodeWriter.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\CodeWriter.cs",
+              "RelativeDocumentMoniker": "VM_Translator\\Implementation\\CodeWriter.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\CodeWriter.cs",
+              "RelativeToolTip": "VM_Translator\\Implementation\\CodeWriter.cs",
+              "ViewState": "AgIAAGMCAAAAAAAAAAAQwOQBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:12:00.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\Parser.cs",
+              "RelativeDocumentMoniker": "VM_Translator\\Implementation\\Parser.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Implementation\\Parser.cs",
+              "RelativeToolTip": "VM_Translator\\Implementation\\Parser.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:12:00.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Program.cs",
+              "RelativeDocumentMoniker": "VM_Translator\\Program.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\Nand2Tetris Projects\\VM_Translator\\VM_Translator\\Program.cs",
+              "RelativeToolTip": "VM_Translator\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwGsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:10:55.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

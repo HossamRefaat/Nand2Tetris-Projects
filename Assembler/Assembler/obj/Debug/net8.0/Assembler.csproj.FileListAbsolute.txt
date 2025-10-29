@@ -1,0 +1,15 @@
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\bin\Debug\net8.0\Assembler.exe
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\bin\Debug\net8.0\Assembler.deps.json
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\bin\Debug\net8.0\Assembler.runtimeconfig.json
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\bin\Debug\net8.0\Assembler.dll
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\bin\Debug\net8.0\Assembler.pdb
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.AssemblyInfoInputs.cache
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.AssemblyInfo.cs
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.csproj.CoreCompileInputs.cache
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.dll
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\refint\Assembler.dll
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.pdb
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.genruntimeconfig.cache
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\ref\Assembler.dll
+C:\Users\hossa\OneDrive\Desktop\Assembler\Assembler\obj\Debug\net8.0\Assembler.sourcelink.json

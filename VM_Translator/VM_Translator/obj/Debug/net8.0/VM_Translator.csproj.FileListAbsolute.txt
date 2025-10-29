@@ -1,0 +1,14 @@
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\bin\Debug\net8.0\VM_Translator.exe
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\bin\Debug\net8.0\VM_Translator.deps.json
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\bin\Debug\net8.0\VM_Translator.runtimeconfig.json
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\bin\Debug\net8.0\VM_Translator.dll
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\bin\Debug\net8.0\VM_Translator.pdb
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.AssemblyInfoInputs.cache
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.AssemblyInfo.cs
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.csproj.CoreCompileInputs.cache
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.dll
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\refint\VM_Translator.dll
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.pdb
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\VM_Translator.genruntimeconfig.cache
+C:\Users\hossa\OneDrive\Desktop\Nand2Tetris Projects\VM_Translator\VM_Translator\obj\Debug\net8.0\ref\VM_Translator.dll
