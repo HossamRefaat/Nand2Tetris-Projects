@@ -9,7 +9,7 @@ This repository contains all the **projects for Nand2Tetris courses**, where we 
 Below is the overall structure of the two Nand2Tetris courses — **Part I** and **Part II** — showing how each layer builds upon the one below.
 
 <p align="center">
-  <img src="assets/nand2tetrisHierarchy.jpg" width="600" alt="Nand2Tetris Hierarchy">
+  <img src="Assets/nand2tetrisHierarchy.jpg" width="600" alt="Nand2Tetris Hierarchy">
 </p>
 
 ---
