@@ -22,7 +22,7 @@ You can explore the visual overview of all **Part I projects** using the Excalid
 
 ---
 
-## 📁 Projects
+## 📁 All Projects (Part II)
 
 | Project | Description |
 |---------|-------------|
