@@ -24,9 +24,11 @@ You can explore the visual overview of all **Part I projects** using the Excalid
 
 ## 📁 Projects
 
-- **[Assembler](Assembler/)** - Hack assembler that translates Hack assembly code into binary machine code
-- **[VM_Translator](VM_Translator/)** - Virtual Machine translator that converts VM commands into Hack Assembly code
-- **[JackAnalyzer](JackAnalyzer/)** - Syntax analyzer for Jack programming language that generates XML parse trees
-- **[JackCompiler](JackCompiler/)** - Full compiler for Jack programming language that translates Jack source code into VM code
+| Project | Description |
+|---------|-------------|
+| [Assembler](Assembler/) | Hack assembler that translates Hack assembly code into binary machine code |
+| [VM_Translator](VM_Translator/) | Virtual Machine translator that converts VM commands into Hack Assembly code |
+| [JackAnalyzer](JackAnalyzer/) | Syntax analyzer for Jack programming language that generates XML parse trees |
+| [JackCompiler](JackCompiler/) | Full compiler for Jack programming language that translates Jack source code into VM code |
 
 
