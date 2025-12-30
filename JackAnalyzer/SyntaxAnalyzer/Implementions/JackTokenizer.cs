@@ -1,8 +1,8 @@
-﻿using JackCompiler.Abstractions;
-using JackCompiler.Enums;
+﻿using SyntaxAnalyzer.Abstractions;
+using SyntaxAnalyzer.Enums;
 using System.Text.RegularExpressions;
 
-namespace JackCompiler.Implementions
+namespace SyntaxAnalyzer.Implementions
 {
     internal class JackTokenizer : IJackTokenizer
     {
@@ -45,8 +45,9 @@ namespace JackCompiler.Implementions
 
         public void Advance()
         {
-            if (HasMoreTokens())
-                _currentIndex++;
+            if (!HasMoreTokens())
+                throw new InvalidOperationException("No more tokens.");
+            _currentIndex++;
         }
 
         public bool HasMoreTokens() => _currentIndex + 1 < _tokens.Count;
@@ -133,6 +134,7 @@ namespace JackCompiler.Implementions
 
             return token[0];
         }
+
 
         private static string RemoveComments(string input)
         {

@@ -1,53 +1,57 @@
-﻿using JackCompiler.Implementions;
+﻿using JackCompiler.Abstractions;
+using JackCompiler.Implementions;
 
-public class JackAnalyzer
+namespace JackCompiler
 {
-    /*
-     some notes
-        1. the output .xml file has to start and end with <tokens></tokens>
-        2. string costants are outputted without the double quotes  
-        3. <, >, ", and & have to be replaced with &lt;, &gt;, &quot;, and &amp; respectively
-     */
-    public static void Main(string[] args)
+    public class JackCompiler
     {
-        if (args.Length == 0)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Usage: JackAnalyzer <input path>");
-            return;
-        }
-
-        string inputPath = args[0];
-
-        if (File.Exists(inputPath))
-        {
-            AnalyzeFile(inputPath);
-        }
-        else if (Directory.Exists(inputPath))
-        {
-            foreach (var file in Directory.GetFiles(inputPath, "*.jack"))
+            if (args.Length == 0)
             {
-                AnalyzeFile(file);
+                Console.WriteLine("Usage: JackCompiler <input path>");
+                return;
+            }
+
+            string inputPath = args[0];
+
+            if (File.Exists(inputPath))
+            {
+                CompileFile(inputPath);
+            }
+            else if (Directory.Exists(inputPath))
+            {
+                foreach (var file in Directory.GetFiles(inputPath, "*.jack"))
+                {
+                    CompileFile(file);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid path.");
             }
         }
-        else
+
+        private static void CompileFile(string filePath)
         {
-            Console.WriteLine("Invalid path.");
+            using var vmWriter = new VMWriter(GetOutputPath(filePath));
+            IJackTokenizer tokenizer = new JackTokenizer(filePath);
+            ISymbolTable symbolTable = new SymbolTable();
+
+            // Advance to the first token before starting compilation
+            tokenizer.Advance();
+
+            var engine = new CompilationEngine(tokenizer, symbolTable, vmWriter);
+
+            engine.CompileClass();
         }
-    }
 
-    private static void AnalyzeFile(string filePath)
-    {
-        var tokenizer = new JackTokenizer(filePath);
-        using var engine = new CompilationEngine(tokenizer, GetOutputPath(filePath));
-
-        engine.CompileClass();
-    }
-
-    private static string GetOutputPath(string jackFile)
-    {
-        string directory = Path.GetDirectoryName(jackFile) ?? "";
-        string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(jackFile);
-        string outputFileName = $"{fileNameWithoutExtension}Out.xml";
-        return Path.Combine(directory, outputFileName);
+        private static string GetOutputPath(string jackFile)
+        {
+            string directory = Path.GetDirectoryName(jackFile) ?? "";
+            string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(jackFile);
+            string outputFileName = $"{fileNameWithoutExtension}.vm";
+            return Path.Combine(directory, outputFileName);
+        }
     }
 }

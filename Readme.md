@@ -20,4 +20,13 @@ You can explore the visual overview of all **Part I projects** using the Excalid
 
 🔗 [View Nand2Tetris Projects Overview (Excalidraw)](https://excalidraw.com/#json=8TtbrTjk4kEzwwl7J-jS-,1eUYaARbjlKye-6b6MKjSA)
 
+---
+
+## 📁 Projects
+
+- **[Assembler](Assembler/)** - Hack assembler that translates Hack assembly code into binary machine code
+- **[VM_Translator](VM_Translator/)** - Virtual Machine translator that converts VM commands into Hack Assembly code
+- **[JackAnalyzer](JackAnalyzer/)** - Syntax analyzer for Jack programming language that generates XML parse trees
+- **[JackCompiler](JackCompiler/)** - Full compiler for Jack programming language that translates Jack source code into VM code
+
 

@@ -1,4 +1,4 @@
-﻿namespace JackCompiler.Implementions
+﻿namespace SyntaxAnalyzer.Implementions
 {
     public class XmlOutputWriter : IDisposable
     {
