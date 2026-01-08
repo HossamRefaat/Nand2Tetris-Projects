@@ -8,6 +8,12 @@ A syntax analyzer for the Jack programming language that converts `.jack` source
 
 Takes Jack source code (`.jack` files) and generates XML output files showing the parse tree structure. Output files are named `filenameOut.xml`.
 
+The following diagram illustrates how an expression like `x = y + (2 * 5)` is structured as an Abstract Syntax Tree (AST):
+
+<p align="center">
+  <img src="../Assets/parseTree.png" alt="Abstract Syntax Tree Example">
+</p>
+
 ## How It Works
 
 1. **Tokenization**: Reads `.jack` file and breaks it into tokens (keywords, symbols, identifiers, constants)
