@@ -30,5 +30,6 @@ You can explore the visual overview of all **Part I projects** using the Excalid
 | [VM_Translator](VM_Translator/) | Virtual Machine translator that converts VM commands into Hack Assembly code |
 | [JackAnalyzer](JackAnalyzer/) | Syntax analyzer for Jack programming language that generates XML parse trees |
 | [JackCompiler](JackCompiler/) | Full compiler for Jack programming language that translates Jack source code into VM code |
+| [JackOS](JackOS/) | Operating System library for Jack programming language providing system services and utilities |
 
 
